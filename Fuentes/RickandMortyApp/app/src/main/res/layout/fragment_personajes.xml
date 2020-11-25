@@ -6,9 +6,9 @@
     tools:context=".fragments.PersonajesFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ListView
         android:layout_width="match_parent"
-        android:text="PERSONAJES"
-        android:layout_height="match_parent"/>
+        android:id="@+id/personajes_list_view"
+        android:layout_height="wrap_content"/>
 
 </FrameLayout>
